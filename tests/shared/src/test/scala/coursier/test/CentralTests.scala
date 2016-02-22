@@ -141,6 +141,12 @@ object CentralTests extends TestSuite {
         "1.3.1"
       )
     }
+    'chronicleMap{
+      resolutionCheck(
+        Module("net.openhft", "chronicle-map"),
+        "2.4.12"
+      )
+    }
     'argonautShapeless{
       resolutionCheck(
         Module("com.github.alexarchambault", "argonaut-shapeless_6.1_2.11"),
